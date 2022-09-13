@@ -118,9 +118,3 @@ def greet(Text,Voicetoclone):
       ap.save_wav(wav, out_path)
       return out_path
 
-#demo = gr.Interface(
-#    fn=greet, 
-#    inputs=[gr.inputs.Textbox(label='What would you like the voice to say? (max. 2000 characters per request)'),gr.Audio(type="filepath",         source="upload",label='Please upload a voice to clone (max. 30mb)')],
-#    outputs="audio",
-#    )
-#demo.launch()

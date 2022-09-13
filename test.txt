@@ -1,1 +1,0 @@
-source activate python3 && conda activate VideoMessage
