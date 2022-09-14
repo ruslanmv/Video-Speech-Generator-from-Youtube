@@ -1,4 +1,9 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.wav
-
+.ipynb_checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.ipynb_checkpoints*
+*.mp4
+*.mp3
