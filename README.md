@@ -1,12 +1,17 @@
-# Video Message Generator from YouTube
-
+# Video Speech Generator from YouTube
 
 Hello everyone, today we are going to build an interesting application that creates video messages from Youtube Videos.
+
+A simple application that replaces the original speech of the video by your text. The program try to clone the original voice and replace them by your text and the the libs of the mouth are synchronized with the new speech with Machine Learning.
+
+[![](assets/images/posts/README/image-20220915013637393.png)](https://vimeo.com/749746957)
+
 The application that we will create will be on hosted on **Amazon Web Services (AWS)** , in ordering to to perform the calculations
 
 We are going to use SageMaker Notebook to create this application.
 
 There are two programs to run this app.
+
 - The notebook version (.ipynb ) that is the extended version that we are going to see first,
 - The python version  (.py) that is the simplified version.
 
@@ -25,11 +30,11 @@ You should login to AWS account and create a SageMaker Notebook, as was explaine
 Then in the terminal,  we clone the repository, and type the following
 
 ```
-git clone https://github.com/ruslanmv/Video-Message-Generator-from-Youtube.git
+git clone https://github.com/ruslanmv/Video-Speech-Generator-from-Youtube.git
 ```
 then enter to the directory
 ```
-cd Video-Message-Generator-from-Youtube
+cd Video-Speech-Generator-from-Youtube
 ```
 
 ## Step 2 - Enviroment setup
@@ -530,8 +535,6 @@ showVideo(final_video)
     Creation of Video done
     Final Video Preview
     Dowload this video from /home/ec2-user/SageMaker/VideoMessageGen/result_voice.mp4
-
-
 
 
 
