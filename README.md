@@ -1,4 +1,4 @@
-# Video Message Generator from Youtube
+# Video Message Generator from YouTube
 
 
 Hello everyone, today we are going to build an interesting application that creates video messages from Youtube Videos.
@@ -517,7 +517,7 @@ showVideo(final_video)
 
 
 
-  
+
 
     Using cuda for inference.
     Reading video frames...
@@ -707,7 +707,7 @@ video_generator(Text, URL,"00:00:10","00:00:01")
     The time format is valid 00:00:10
     The time format is valid 00:00:01
     Final Time is Smaller than Initial Time: t1>t2
-
+    
     './demo/tryagain0.mp4'
 
 <img src="assets/images/posts/README/try_again0.png" style="zoom:50%;" />
@@ -726,7 +726,7 @@ video_generator(Text, URL,"00:00:01","00:05:00")
     The time format is valid 00:05:00
     OK
     The trim is larger than video lenght
-
+    
     './demo/tryagain0.mp4'
 
 
@@ -741,7 +741,7 @@ video_generator(Text, URL,"00:00:01","00:06:00")
     The time format is valid 00:06:00
     OK
     The trim is larger than 5 minutes
-
+    
     './demo/tryagain0.mp4'
 
 
@@ -803,8 +803,6 @@ demo=gr.Interface(fn = video_generator,
 
 You can run the following cell and in the text you can add the following quote:
 
-
-
 > I am cloning your voice, Obama!. Just as electricity transformed almost everything 100 years ago, today I actually have a hard time thinking of an industry that I don’t think AI (Artificial Intelligence) will transform in the next several years
 
 and use the link `https://www.youtube.com/watch?v=gt9MvcyolTA&ab_channel=TheObamaWhiteHouse` and the initial time  `00:00:01`  and final `00:00:23`
@@ -824,7 +822,7 @@ This share link expires in 72 hours. For free permanent hosting, check out Space
 
 and you will get the following:
 
-![image-20220915004702102](assets/images/posts/README/image-20220915004702102.png)
+![](assets/images/posts/README/image-20220915004702102.png)
 
 
 
@@ -861,8 +859,3 @@ If you want to check out the live version of this program visit the **HuggingFac
 [![image-20220915010158326](assets/images/posts/README/image-20220915010158326.png)](https://huggingface.co/spaces/ruslanmv/Text2Lip)
 
 For more demos and posts, please visit  https://ruslanmv.com/
-
-
-
-
-
