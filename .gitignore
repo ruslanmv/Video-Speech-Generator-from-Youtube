@@ -7,3 +7,4 @@ __pycache__/
 .ipynb_checkpoints*
 *.mp4
 *.mp3
+backup/
