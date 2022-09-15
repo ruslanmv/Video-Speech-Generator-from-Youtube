@@ -10,12 +10,12 @@ The application that we will create will be on hosted on **Amazon Web Services (
 
 We are going to use **SageMaker Notebook** to create this application.
 
-There are two programs to run this app.
+There are two versions of this program:
 
 - The notebook version (.ipynb ) that is the extended version that we are going to see first,
 - The python version  (.py) that is the simplified version.
 
-First we are going to discuss the extended version to understand how the things were done, and the simplifed version at the end.
+We are going to discuss the extended version to understand how the things were done.
 
 ## Step 1 - Cloning the repository
 
@@ -37,7 +37,7 @@ then enter to the directory
 cd Video-Speech-Generator-from-Youtube
 ```
 
-## Step 2 - Enviroment setup
+## Step 2 - Environment setup
 First at all, we need to install the environment to this application, that will be **VideoMessage**, that will be executed on **python=3.7.13** and it is required
 **ffmpeg** and **git-lfs**.
 
