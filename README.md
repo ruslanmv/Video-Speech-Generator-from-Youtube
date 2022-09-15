@@ -2,13 +2,13 @@
 
 Hello everyone, today we are going to build an interesting application that creates video messages from Youtube Videos.
 
-A simple application that replaces the original speech of the video by your text. The program try to clone the original voice and replace them by your text and the the libs of the mouth are synchronized with the new speech with Machine Learning.
+A simple application that replaces the original speech of the video by your text. The program try to clone the original voice and replace them by your text and the libs of the mouth are synchronized with the new speech with Machine Learning.
 
 [![](assets/images/posts/README/image-20220915013637393.png)](https://vimeo.com/749746957)
 
 The application that we will create will be on hosted on **Amazon Web Services (AWS)** , in ordering to to perform the calculations
 
-We are going to use SageMaker Notebook to create this application.
+We are going to use **SageMaker Notebook** to create this application.
 
 There are two programs to run this app.
 
@@ -857,7 +857,7 @@ cleanup()
 ## Step 14 - Shutdown your instance and stop and delete instance
 Thank you for use this notebook. Dont forget delete your instance after use.
 
-If you want to check out the live version of this program visit the **HuggingFace** space Tex2Lip
+The python version of this program is hosted the **HuggingFace** space Tex2Lip
 
 [![image-20220915010158326](assets/images/posts/README/image-20220915010158326.png)](https://huggingface.co/spaces/ruslanmv/Text2Lip)
 
